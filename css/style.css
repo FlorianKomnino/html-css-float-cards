@@ -1,3 +1,20 @@
-div {
-    background-color: red;
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    margin: 1rem;
+    height: 5rem;
+    width: calc(100% / 3);
+    background-color: black;
+    color: white;
 }
