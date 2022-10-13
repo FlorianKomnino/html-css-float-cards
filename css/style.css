@@ -5,8 +5,18 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+h1 {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: #e53170;
+}
+
+header {
+    padding-bottom: 2rem;
+}
+
 main {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     text-align: center;
 }
@@ -18,6 +28,7 @@ section {
     background-color: black;
     color: white;
     text-align: left;
+    box-shadow: 0 0 1rem grey;
 }
 
 img {
@@ -30,10 +41,6 @@ img {
     clear: both;
 }
 
-.container {
-    background-color: aqua;
-}
-
 .description {
     padding: 0.7rem;
 }
@@ -41,4 +48,18 @@ img {
 .float-left {
     float: left;
     margin-right: 1rem;
+}
+
+.mail-link {
+    font-size: 0.7rem;
+    color: #28c1f2;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.job {
+    font-size: 0.8rem;
+    font-weight: 400;
 }
